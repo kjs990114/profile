@@ -1,0 +1,58 @@
+#base_frame {
+    width: 640px;
+}
+
+#navbarNav {
+    border-bottom-style: solid;
+}
+
+.container {
+    align-items: center;
+}
+
+body {
+    background-image: url(background.png);
+}
+
+#top {
+    border-bottom-style: solid;
+}
+
+#bottom {
+    border-top-style: solid;
+    text-align: right;
+}
+
+#bottom a {
+    color: inherit;
+}
+
+#time-table {
+    border-top-style: solid;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #A8D8EB;
+}
+
+table {
+    border: 2px solid #d2d2d2;
+    border-collapse: collapse;
+    font-size: 0.9em;
+}
+
+th,
+td {
+    border: 1px solid #d2d2d2;
+    border-collapse: collapse;
+}
+
+th {
+    height: 5px;
+}
+
+td {
+    width: 75px;
+    height: 60px;
+    text-align: center;
+}
